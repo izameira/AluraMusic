@@ -1,0 +1,60 @@
+body {
+    color: rgb(255, 255, 255);
+    background: black; 
+    margin: 0px;
+    font-family: "Hind Siliguri", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px purple;
+    padding:35px;
+    font-size: 55px;
+    color: purple;
+}
+
+.chamada {
+    background: rgb(209, 182, 239);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.categoria-musica {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.categoria {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+}
+
+.categoria-musica img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-musica img:hover {
+    opacity: 1.0;
+    border: 1px solid white; 
+}
+
+.categoria h2 {
+    color: purple;
+}
